@@ -32,6 +32,9 @@ public class AppointmentController {
     // TODO: Implement update appointment
     return ResponseEntity.ok().build();
   }
+
+
+  
   
   @DeleteMapping("/{id}")
   public ResponseEntity<Void> deleteAppointment(@PathVariable Long id) {
